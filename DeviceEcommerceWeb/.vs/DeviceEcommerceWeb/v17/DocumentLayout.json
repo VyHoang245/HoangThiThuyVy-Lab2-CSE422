@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\views\\product\\listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\views\\product\\listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|c:\\users\\vygir\\source\\repos\\deviceecommerceweb\\deviceecommerceweb\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1C6EEED-0165-4A41-B634-F0595DB9F3A4}|DeviceEcommerceWeb\\DeviceEcommerceWeb.csproj|solutionrelative:deviceecommerceweb\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T16:10:16.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T16:03:48.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:54:45.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T12:22:25.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T14:54:58.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\ListProduct.cshtml",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Views\\Product\\ListProduct.cshtml",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\ListProduct.cshtml",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Views\\Product\\ListProduct.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T14:33:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwDYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T16:02:09.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DeviceEcommerceWeb\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\vygir\\source\\repos\\DeviceEcommerceWeb\\DeviceEcommerceWeb\\Models\\Product.cs",
+              "RelativeToolTip": "DeviceEcommerceWeb\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:07:01.118Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

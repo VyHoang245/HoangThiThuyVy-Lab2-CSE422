@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Category Management</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<style type="text/css">
+		.border {
+			margin: 20px;
+			padding: 20px 40px;
+			border: solid 1px gray;
+			border-radius: 30px;
+			width: 100%;
+		}
+
+			.border h1 {
+				margin-bottom: 20px;
+			}
+	</style>
+</head>
+<body>
+	<div class="border">
+		<h1>Product List</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Name</th>
+					<th scope="col">Status</th>
+					<th scope="col">Quantity</th>
+					<th scope="col">Category</th>
+					<th scope="col">Function</th>
+				</tr>
+			</thead>
+			<tbody class="body">
+				@foreach (var product in ViewBag.Products)
+				{
+					<tr>
+						<th scope="col">@product.Id</th>
+						<th scope="col">@product.Name</th>
+						<th scope="col">@product.Status</th>
+						<th scope="col">@product.Quantity</th>
+						<th scope="col">@product.Category</th>
+						<th scope="col">
+							@* <a href="@Url.Action("Edit", "Product", new { id = product?.Id ?? 0 })"> *@
+							@* 	<span style="padding: 0 5px; color:green; font-weight:100" class="edit-btn">Edit</span> *@
+							@* 	 <button type="submit" class="btn btn-primary">Edit</button> *@ 
+							@* </a> *@
+
+							@* <span style="padding: 0 5px;color:Red; font-weight:100" class="delete-btn">Delete</span> *@
+
+							<div class="row">
+								<div class="col-lg-6 col-sm-6">
+									<a href="@Url.Action("Edit", "Product", new { id = product?.Id ?? 0 })">
+										<span style="padding: 0 5px; color:green; font-weight:100" class="edit-btn">Edit</span>
+										@* <button type="submit" class="btn btn-primary">Edit</button> *@
+									</a>
+								</div>
+								<div class="col-lg-6 col-sm-6">
+									<form asp-controller="Product" asp-action="Delete" method="post" onsubmit="return confirm('Are you sure you want to delete this product?');">
+										<input type="hidden" name="id" value="@product?.Id" />
+										@* <button type="submit" class="btn btn-danger">Delete</button> *@
+										<a><span style="padding: 0 5px;color:Red; font-weight:100" class="delete-btn" type="submit">Delete</span></a>
+									</form>
+								</div>
+							</div>
+						</th>
+					</tr>
+				}
+			</tbody>
+		</table>
+		<a href="@Url.Action("Create", "Product")" class="btn btn-primary ">Add New Product</a>
+	</div>
+
+
+</body>
+</html>
