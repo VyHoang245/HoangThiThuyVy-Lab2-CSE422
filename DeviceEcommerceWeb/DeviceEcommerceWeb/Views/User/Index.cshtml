@@ -1,0 +1,66 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Category Management</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<style type="text/css">
+		.border {
+			margin: 20px;
+			padding: 20px 40px;
+			border: solid 1px gray;
+			border-radius: 30px;
+			width: 100%;
+		}
+
+			.border h1 {
+				margin-bottom: 20px;
+			}
+
+		.btn-danger {
+			border: none;
+			color: red;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+    <div class="border">
+        <h1>User List</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in ViewBag.Users)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.FullName</td>
+                        <td>@user.Email</td>
+                        <td>@user.PhoneNumber</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "User", new { id = user.Id })" class="btn btn-success">Edit</a>
+                            <form asp-controller="User" asp-action="Delete" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@user.Id" />
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a href="@Url.Action("Create", "User")" class="btn btn-primary">Add New User</a>
+    </div>
+
+</body>
+</html>
